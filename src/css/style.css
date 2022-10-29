@@ -12,9 +12,12 @@ body{
 
 .container-master{
     display: flex;
-    max-width: 840px;
+    width: 840px;
     gap: 50px;
     padding: 0 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .container-master .container-text{
     display: flex;
@@ -22,15 +25,17 @@ body{
     justify-content: center;
     align-items: center;
     row-gap: 11px;
-    width: 35.7vw;
+    width: 300px;
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
 .container-master .container-text .tittle{
-    width: 100%;
+    width: 97%;
+    text-transform: uppercase;
     font-weight: 900;
     font-size: 20px;
     line-height: 24px;
+    
 }
 .container-master .container-text .text{
     width: 100%;
@@ -47,13 +52,10 @@ body{
     background-color: #fff;
     width: 340px;
     font-family: 'Roboto', sans-serif;
-    margin: 12px 0;
 }
 .container-master .container-chat .form{
     display: flex;
     flex-direction: column;
-    /* row-gap: 15px; */
-    margin-top: 20px;
     width: 100%;
 }
 .container-master .container-chat .field{
@@ -63,6 +65,8 @@ body{
     margin: 15px 20px 0;
     padding: 8px 0 8px 10px;
     max-width: 298px;
+    font-size: 15px;
+    font-weight: 700;
     border-radius: 10px;
     border: 1px solid black;
 }
