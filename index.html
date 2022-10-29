@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Quest Javascript Intermediário</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <main class="container-master">
+        <section class="container-text">
+            <h1 class="tittle">Ficou com dúvidas? <br> Nos mande uma mansagem!</h1>
+            <p class="text">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </section>
+        <section class="container-chat">
+            <form class="form" method="get">
+                <input class="field" type="text" id="name" placeholder="Nome Completo *">
+                <span class="valid">*campos obrigatórios</span>
+                <input class="field" type="email" id="email" placeholder="Email *">
+                <span class="valid">*campos obrigatórios</span>
+                <input class="field" type="tel" id="phone" placeholder="Telefone *">
+                <span class="valid">*campos obrigatórios</span>
+                <textarea class="field field-textarea" id="message" cols="60" rows="8" placeholder="Menssagem *"></textarea>
+                <span class="valid">*campos obrigatórios</span>
+            </form>
+            <p class="note">*campos obrigatórios</p>
+            <input class="btn" type="button" value="Enviar">
+        </section>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
